@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{09B64BAF-819E-447A-AC37-75752AD39DE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeMachine.Presentation.WebApp", "CoffeeMachine.Presentation.WebApp\CoffeeMachine.Presentation.WebApp.csproj", "{181E7790-4478-4392-AB2E-4970DBA44DB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{D4584D52-8F29-4075-9412-18A94744B2B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeMachine.BusinessLogics", "CoffeeMachine.BusinessLogics\CoffeeMachine.BusinessLogics.csproj", "{B2A9840B-1B69-4AFC-9CB5-91DC68107212}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{BF59D6C2-03AA-4310-873E-62CA3BB9DDE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeMachine.BusinessLogics.Tests", "CoffeeMachine.BusinessLogics.Tests\CoffeeMachine.BusinessLogics.Tests.csproj", "{364D2CEB-5502-4E90-941A-594604CEAA2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeMachine.Repositories", "CoffeeMachine.Repositories\CoffeeMachine.Repositories.csproj", "{6CA1B101-24D2-472F-A954-C2EBC809C4DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeMachine.Repositories.Tests", "CoffeeMachine.Repositories.Tests\CoffeeMachine.Repositories.Tests.csproj", "{9D20A829-DD9F-4161-83CF-890DF0AC343A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{1000D824-65AB-4684-BCEE-93FF4B69F023}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeMachine.BusinessLogics.WebServices", "CoffeeMachine.BusinessLogics.WebServices\CoffeeMachine.BusinessLogics.WebServices.csproj", "{3B453BEF-E855-480B-B25C-26C0E3206668}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeMachine.Data.Entities", "CoffeeMachine.Data.Entities\CoffeeMachine.Data.Entities.csproj", "{12E46372-FE47-4D23-9FD4-638E452E97DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeMachine.Dtos", "CoffeeMachine.Dtos\CoffeeMachine.Dtos.csproj", "{109AF373-B57E-4B14-9E21-E7AB682790EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{181E7790-4478-4392-AB2E-4970DBA44DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{181E7790-4478-4392-AB2E-4970DBA44DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{181E7790-4478-4392-AB2E-4970DBA44DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{181E7790-4478-4392-AB2E-4970DBA44DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2A9840B-1B69-4AFC-9CB5-91DC68107212}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2A9840B-1B69-4AFC-9CB5-91DC68107212}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2A9840B-1B69-4AFC-9CB5-91DC68107212}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2A9840B-1B69-4AFC-9CB5-91DC68107212}.Release|Any CPU.Build.0 = Release|Any CPU
+		{364D2CEB-5502-4E90-941A-594604CEAA2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{364D2CEB-5502-4E90-941A-594604CEAA2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{364D2CEB-5502-4E90-941A-594604CEAA2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{364D2CEB-5502-4E90-941A-594604CEAA2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CA1B101-24D2-472F-A954-C2EBC809C4DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CA1B101-24D2-472F-A954-C2EBC809C4DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CA1B101-24D2-472F-A954-C2EBC809C4DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CA1B101-24D2-472F-A954-C2EBC809C4DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D20A829-DD9F-4161-83CF-890DF0AC343A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D20A829-DD9F-4161-83CF-890DF0AC343A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D20A829-DD9F-4161-83CF-890DF0AC343A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D20A829-DD9F-4161-83CF-890DF0AC343A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B453BEF-E855-480B-B25C-26C0E3206668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B453BEF-E855-480B-B25C-26C0E3206668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B453BEF-E855-480B-B25C-26C0E3206668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B453BEF-E855-480B-B25C-26C0E3206668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12E46372-FE47-4D23-9FD4-638E452E97DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12E46372-FE47-4D23-9FD4-638E452E97DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12E46372-FE47-4D23-9FD4-638E452E97DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12E46372-FE47-4D23-9FD4-638E452E97DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{109AF373-B57E-4B14-9E21-E7AB682790EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{109AF373-B57E-4B14-9E21-E7AB682790EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{109AF373-B57E-4B14-9E21-E7AB682790EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{109AF373-B57E-4B14-9E21-E7AB682790EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{181E7790-4478-4392-AB2E-4970DBA44DB2} = {09B64BAF-819E-447A-AC37-75752AD39DE5}
+		{B2A9840B-1B69-4AFC-9CB5-91DC68107212} = {D4584D52-8F29-4075-9412-18A94744B2B2}
+		{364D2CEB-5502-4E90-941A-594604CEAA2D} = {BF59D6C2-03AA-4310-873E-62CA3BB9DDE0}
+		{6CA1B101-24D2-472F-A954-C2EBC809C4DA} = {D4584D52-8F29-4075-9412-18A94744B2B2}
+		{9D20A829-DD9F-4161-83CF-890DF0AC343A} = {BF59D6C2-03AA-4310-873E-62CA3BB9DDE0}
+		{3B453BEF-E855-480B-B25C-26C0E3206668} = {1000D824-65AB-4684-BCEE-93FF4B69F023}
+		{12E46372-FE47-4D23-9FD4-638E452E97DD} = {D4584D52-8F29-4075-9412-18A94744B2B2}
+		{109AF373-B57E-4B14-9E21-E7AB682790EF} = {D4584D52-8F29-4075-9412-18A94744B2B2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3B65921-32E6-494B-B6EA-BC635AEE91EC}
+	EndGlobalSection
+EndGlobal
